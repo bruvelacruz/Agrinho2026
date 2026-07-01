@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroTech: O Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AgroTech: O Futuro Sustentável</h1>
+            <p>Agro forte, futuro sustentável: o equilíbrio perfeito através da tecnologia.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#preservacao">Preservação</a></li>
+                <li><a href="#simulador">Simulador Inteligente</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="grid-layout">
+            <section id="tecnologia" class="card-info">
+                <h2>A Revolução Digital no Campo</h2>
+                <p>O agronegócio moderno não depende apenas da força física, mas de dados e inteligência. O uso de drones, sensores de solo e satélites permite mapear lavouras com precisão cirúrgica. Isso significa aplicar fertilizantes apenas onde é necessário, aumentando a produção e reduzindo o impacto no solo.</p>
+            </section>
+
+            <section id="preservacao" class="card-info">
+                <h2>Preservar para Continuar Produzindo</h2>
+                <p>Meio ambiente e agricultura caminham juntos. Ao utilizar a agricultura de precisão, economizamos milhões de litros de água anualmente. As florestas no entorno das lavouras são protegidas, pois a tecnologia nos permite produzir muito mais alimentos no mesmo espaço de terra, evitando o desmatamento.</p>
+            </section>
+        </div>
+
+        <section id="simulador" class="interactive-section">
+            <h2>Simulador de Irrigação Inteligente</h2>
+            <p>Descubra como os sensores de solo tomam decisões para economizar água e garantir o equilíbrio ambiental.</p>
+            
+            <div class="painel-controle">
+                <label for="umidade">Umidade atual do solo (em %):</label>
+                <input type="number" id="umidade" min="0" max="100" placeholder="Ex: 45">
+                <button id="btnAnalisar">Analisar Dados do Sensor</button>
+                
+                <div id="painelResultado" class="escondido">
+                    <h3>Status do Sistema:</h3>
+                    <p id="mensagemStatus"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto desenvolvido para o Concurso Agrinho | Categoria: Programação</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
